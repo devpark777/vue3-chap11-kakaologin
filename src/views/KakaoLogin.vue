@@ -12,7 +12,7 @@
     <div v-else>
         카카오 nickname : {{userInfo.id}} <br>
         카카오 email : {{userInfo.pwd}} <br><br>
-       <button type="button" @click="kakaoLogout">카카오 로그아웃</button>
+       <button type="button" @click="kakaoLogout" class="btn btn-danger">카카오 로그아웃</button>
      </div>
   </div>
 </template>
